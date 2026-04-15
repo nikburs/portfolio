@@ -38,7 +38,7 @@ export default function About() {
           <div className="section-animate">
             <div className="cyber-card p-6 md:p-8">
               <div className="font-mono text-xs text-cyber-cyan mb-4 tracking-widest">
-                // PROFESSIONAL SUMMARY
+                {/* PROFESSIONAL SUMMARY */}
               </div>
               <p className="text-cyber-text leading-relaxed text-sm md:text-base">
                 {personalInfo.summary}
@@ -93,7 +93,7 @@ export default function About() {
           <div className="section-animate">
             <div className="cyber-card p-6 md:p-8 h-full">
               <div className="font-mono text-xs text-cyber-cyan mb-4 tracking-widest">
-                // EDUCATION
+                {/* EDUCATION */}
               </div>
 
               <div className="flex items-start gap-4 mb-6">
