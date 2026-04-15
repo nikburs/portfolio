@@ -144,14 +144,14 @@ export const certifications = [
     id: 7,
     name: "Introduction to Cybersecurity",
     issuer: "Cisco",
-    badge: "/badges/Introduction to Cybersecurity.png",
+    badge: "/badges/intro-cybersecurity.png",
     color: "#00BCEB",
   },
   {
     id: 8,
     name: "Introduction to IoT",
     issuer: "Cisco",
-    badge: "/badges/Introduction to IoT.png",
+    badge: "/badges/intro-iot.png",
     color: "#00BCEB",
   },
 ];
