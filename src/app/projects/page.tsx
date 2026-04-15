@@ -85,7 +85,7 @@ export default function ProjectsPage() {
         {featured.length > 0 && (
           <section className="mb-16">
             <div className="font-mono text-xs text-cyber-muted mb-6 tracking-widest uppercase">
-              // Featured
+              {/* Featured */}
             </div>
             <div className="grid gap-6">
               {featured.map((project) => (
@@ -99,7 +99,7 @@ export default function ProjectsPage() {
         {rest.length > 0 && (
           <section>
             <div className="font-mono text-xs text-cyber-muted mb-6 tracking-widest uppercase">
-              // All Projects
+              {/* All Projects */}
             </div>
             <div className="grid md:grid-cols-2 gap-6">
               {rest.map((project) => (
