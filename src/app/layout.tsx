@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Franz Gil Sevilla | Cybersecurity Portfolio",
     description:
-      "Cybersecurity student & Technology Risk Consulting Intern at KPMG Philippines.",
+      "Cybersecurity",
     type: "website",
   },
 };

@@ -62,7 +62,7 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto">
         {/* Section header */}
         <div className="section-animate flex items-center gap-4 mb-16">
-          <span className="font-mono text-cyber-cyan text-sm">05.</span>
+          <span className="font-mono text-cyber-cyan text-sm">06.</span>
           <h2 className="font-display text-4xl md:text-5xl text-white tracking-wider">
             CONTACT
           </h2>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import { personalInfo } from "@/data/resume";
 
 const typewriterStrings = [
@@ -108,12 +109,33 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-32 text-center">
-        {/* Status bar */}
-        <div className="inline-flex items-center gap-3 mb-8 px-4 py-2 border border-cyber-border bg-cyber-surface/60 backdrop-blur-sm">
-          <span className="w-2 h-2 rounded-full bg-cyber-green animate-pulse" />
-          <span className="font-mono text-xs text-cyber-muted tracking-widest uppercase">
-            Open to Opportunities
-          </span>
+
+        {/* Profile photo */}
+        <div className="flex justify-center mb-8">
+          <div className="relative">
+            {/* Animated cyan ring */}
+            <div
+              className="absolute inset-0 rounded-full animate-glow-pulse"
+              style={{
+                background:
+                  "conic-gradient(var(--cyan), var(--green), var(--cyan))",
+                padding: "2px",
+                borderRadius: "9999px",
+              }}
+            />
+            <div className="relative w-32 h-32 rounded-full overflow-hidden border-2 border-cyber-bg z-10">
+              <Image
+                src="/images/profile.jpg"
+                alt="Franz Gil Sevilla"
+                fill
+                className="object-cover object-center"
+                sizes="128px"
+                priority
+              />
+            </div>
+            {/* Online indicator */}
+            <span className="absolute bottom-1 right-1 w-4 h-4 rounded-full bg-cyber-green border-2 border-cyber-bg z-20 animate-pulse" />
+          </div>
         </div>
 
         {/* Name */}

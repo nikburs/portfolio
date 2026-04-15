@@ -33,7 +33,7 @@ export default function Certifications() {
       <div className="max-w-6xl mx-auto">
         {/* Section header */}
         <div className="section-animate flex items-center gap-4 mb-6">
-          <span className="font-mono text-cyber-cyan text-sm">04.</span>
+          <span className="font-mono text-cyber-cyan text-sm">05.</span>
           <h2 className="font-display text-4xl md:text-5xl text-white tracking-wider">
             CERTIFICATIONS
           </h2>
