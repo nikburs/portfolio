@@ -115,7 +115,7 @@ export default function Hero() {
           <div className="relative">
             {/* Animated cyan ring */}
             <div
-              className="absolute inset-0 rounded-full animate-glow-pulse"
+              className="absolute inset-0 rounded-full animate-glow-pulse z-0"
               style={{
                 background:
                   "conic-gradient(var(--cyan), var(--green), var(--cyan))",
